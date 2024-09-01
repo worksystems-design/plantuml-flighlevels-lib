@@ -1,0 +1,5 @@
+@startuml
+    [Product 2] <<FL2>>
+    [Strategy] <<FL3>>
+    [Product 2] --up-->> [Strategy]
+@enduml

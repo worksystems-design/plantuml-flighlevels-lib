@@ -1,0 +1,8 @@
+@startuml
+
+skinparam ArrowColor red
+
+    [Product 1] <<FL2>>
+    [Strategy] <<FL3>>
+    [Product 1] --up-->> [Strategy]
+@enduml

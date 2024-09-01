@@ -1,0 +1,3 @@
+!include ../fl-wst.iuml!wst.common
+!include ws1.puml
+!include ws2.puml
