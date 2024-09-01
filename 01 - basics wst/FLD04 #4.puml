@@ -2,9 +2,9 @@
 
 title Work Systems Topology using PlantUML
 
-!include fl-wst.iuml!wst.common
-!include fl-wst.iuml!wst.legend
-!include fl-wst.iuml!wsd.branding
+!include defs/fl-wst.iuml
+!include defs/fl-wst.iuml!wst.legend
+!include defs/fl-wst.iuml!wsd.branding
 
 package FL3 {
   [Strategy] <<FL3>>
@@ -34,5 +34,7 @@ package FL1 {
 [Product 2] --up->> [Strategy] : contributes
 [Product 1] <<-up->> [XFunctional]
 [Product 2] <<-up->> [XFunctional]
+
+remove <<FL3>>
 
 @enduml
